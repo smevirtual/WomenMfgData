@@ -1,4 +1,4 @@
-## Data for the Women in Engineering and Manufacturing Application [![Build Status](https://travis-ci.org/smevirtual/WomenMfgData.svg)](https://travis-ci.org/smevirtual/WomenMfgData)
+## Data for the Women in Engineering and Manufacturing Application [![Build Status](https://travis-ci.com/smevirtual/WomenMfgData.svg)](https://travis-ci.com/smevirtual/WomenMfgData)
 
 Contains the data for [women.smevirtual.com](https://women.smevirtual.com/), a web
 application that highlights and celebrates women contributors to the present and
