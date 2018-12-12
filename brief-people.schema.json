@@ -1,0 +1,50 @@
+{
+  "$id": "https://smevirtual.com/brief-people.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A brief representation of a person.",
+  "type": "array",
+  "required": ["id", "name", "photo_url", "profile_url", "company", "title", "work_description", "industry_type"],
+  "definitions": {
+    "industry_types": {
+      "enum": [
+        "Automotive and Transportation",
+        "Aerospace and Defense",
+        "Medical",
+        "Heavy Industry, Construction and Mining",
+        "Oil and Gas",
+        "Automation, Robotics and Production Machinery",
+        "Educators and Research"
+      ],
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "photo_url": {
+      "type": "string"
+    },
+    "profile_url": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "work_description": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "industry_type": {
+      "$ref": "#/definitions/industry_types"
+    }
+  }
+}

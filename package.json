@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "ajv": "^6.6.1"
+  },
+  "private": true,
+  "scripts": {
+    "test": "node validate-people-json.js"
+  }
+}
