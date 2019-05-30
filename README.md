@@ -1,5 +1,7 @@
 ## Data for the Women in Engineering and Manufacturing Application
 
+[![Build Status](https://dev.azure.com/smevirtual/WomenMfgData/_apis/build/status/smevirtual.WomenMfgData?branchName=master)](https://dev.azure.com/smevirtual/WomenMfgData/_build/latest?definitionId=2&branchName=master)
+
 Contains the data for [women.smevirtual.com](https://women.smevirtual.com/), a web
 application that highlights and celebrates women contributors to the present and
 future of engineering and manufacturing.
