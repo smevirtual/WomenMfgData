@@ -1,4 +1,4 @@
-## Data for the Women in Engineering and Manufacturing Application [![Build Status](https://travis-ci.com/smevirtual/WomenMfgData.svg)](https://travis-ci.com/smevirtual/WomenMfgData)
+## Data for the Women in Engineering and Manufacturing Application
 
 Contains the data for [women.smevirtual.com](https://women.smevirtual.com/), a web
 application that highlights and celebrates women contributors to the present and
@@ -38,7 +38,7 @@ or reach out to the leadership team at [hello@smevirtual.com](mailto:hello@smevi
 There are several prerequisites need to be installed on your development
 machine prior to working with this codebase.
 
-1.  Install Node.js version 8.0 or greater.
+1.  Install Node.js version 10.0 or greater.
 
     See [this page](https://nodejs.org/en/download/).
 
@@ -76,5 +76,4 @@ environment for all. Please take a moment to read our
 
 ### License
 
-The contents of this repository are licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-A copy of this license is included in the root of this repository.
+The contents of this repository are licensed under the [MIT License](LICENSE) unless otherwise noted in the header of a specific file or within a particular source directory.
