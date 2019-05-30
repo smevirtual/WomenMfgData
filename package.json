@@ -1,9 +1,13 @@
 {
   "devDependencies": {
-    "ajv": "^6.6.1"
+    "ajv": "^6.10.0",
+    "prettier": "^1.17.1"
   },
   "private": true,
   "scripts": {
     "test": "node validate-people-json.js"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }

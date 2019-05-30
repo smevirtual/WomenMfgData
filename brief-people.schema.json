@@ -16,35 +16,43 @@
         "Educators and Research"
       ],
       "type": "string"
+    },
+    "url": {
+      "format": "uri",
+      "type": "string"
     }
   },
-  "properties": {
-    "id": {
-      "type": "number"
-    },
-    "name": {
-      "type": "string"
-    },
-    "photo_url": {
-      "type": "string"
-    },
-    "profile_url": {
-      "type": "string"
-    },
-    "company": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "work_description": {
-      "type": "string"
-    },
-    "message": {
-      "type": "string"
-    },
-    "industry_type": {
-      "$ref": "#/definitions/industry_types"
+  "items": {
+    "additionalProperties": false,
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      },
+      "photo_url": {
+        "$ref": "#/definitions/url"
+      },
+      "profile_url": {
+        "$ref": "#/definitions/url"
+      },
+      "company": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "work_description": {
+        "type": "string"
+      },
+      "message": {
+        "type": "string"
+      },
+      "industry_type": {
+        "$ref": "#/definitions/industry_types"
+      }
     }
   }
 }
